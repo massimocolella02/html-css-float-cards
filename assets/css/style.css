@@ -2,4 +2,80 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka One';
+    text-align: center;
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+.center{
+    margin-left: 15px;
+}
+header{
+    padding: 20px;
+    color: #E5306F;
+}
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container{
+    padding: 3% 0px;
+}
+.mariobianchi{
+    background-color: #0F0E17;
+    color: white;
+    float: left;
+    width: calc(90%/3);
+    display: flex;
+    align-items: center;
+}
+.laurarossi{
+    background-color: #0F0E17;
+    color: white;
+    float: left;
+    width: calc(90%/3);
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.giorgioverdi{
+    background-color: #0F0E17;
+    color: white;
+    float: right;
+    width: calc(90%/3);
+    display: flex;
+    align-items: center;
+}
+.martaipsum{
+    background-color: #0F0E17;
+    color: white;
+    float: left;
+    width: calc(90%/3);
+    display: flex;
+    align-items: center;
+}
+.robertolorem{
+    background-color: #0F0E17;
+    color: white;
+    float: left;
+    width: calc(90%/3);
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.danielaamet{
+    background-color: #0F0E17;
+    color: white;
+    float: right;
+    width: calc(90%/3);
+    display: flex;
+    align-items: center;
 }
